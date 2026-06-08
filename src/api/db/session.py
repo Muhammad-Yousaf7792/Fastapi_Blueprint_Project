@@ -54,7 +54,6 @@ def init_db():
         print("Database initialized successfully")
     except Exception as exc:
         print(f"Warning: Could not fully initialize database: {exc}")
-        # Don't raise - allow fallback to work
 
 
 def get_session():
